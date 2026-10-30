@@ -1,0 +1,23 @@
+	<style>
+		  /* --- Estructura del gráfico --- */
+    .grid  { fill: none; stroke: #ddd; }
+    .eje   { stroke: #aaa; }
+    .texto { font-size: 12px; text-anchor: middle; }
+
+    /* --- Polígonos: lo común va en .area, el color en cada clase --- */
+    .area       { fill-opacity: 0.2; stroke-width: 2; }
+    .area:hover { fill-opacity: 0.5; }
+
+    .puc   { fill: #FEC60D; stroke: #FEC60D; }
+    .uch   { fill: #1F5592; stroke: #1F5592; }
+    .udec  { fill: #2ca02c; stroke: #2ca02c; }
+    .usach { fill: #d62728; stroke: #d62728; }
+
+    /* --- Leyenda --- */
+    .item   { cursor: pointer; font-size: 12px; }
+    .item rect { width: 14px; height: 14px; }
+
+    /* --- Estados que activa el JavaScript --- */
+    .no { display: none; }
+    .apagado { opacity: 0.3; }
+	</style>
